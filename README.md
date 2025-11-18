@@ -1,16 +1,11 @@
-# React + Vite
+# 📝 Serverless Notes App  
+*A cloud-native notes application built with AWS Amplify, React, GraphQL, DynamoDB, and Cognito.*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+The **Serverless Notes App** is a fully serverless, secure, and scalable web application that allows authenticated users to create, view, edit, and delete notes. It is built using **React** on the frontend and **AWS Amplify** to manage backend services such as authentication, GraphQL API, data storage, and hosting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project demonstrates modern **serverless architecture**, **authentication**, **GraphQL data operations**, and **full-stack deployment** on AWS.
 
-## React Compiler
+## 🏗️ Architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
